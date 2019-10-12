@@ -1,5 +1,8 @@
-# Centreon 2.5.3 Remote Code Execution via web useralias login
-Standalone Python 3 exploit for Centreon 2.5.3, rewritten from [this Metasploit module](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/linux/http/centreon_useralias_exec.rb)
+# Centreon 2.5.3 Reverse Shell RCE via web useralias login
+Standalone Python 3 reverse shell remote code exploit for Centreon 2.5.3, rewritten from [this Metasploit module](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/linux/http/centreon_useralias_exec.rb)
+
+Writeup [here](https://ivanitlearning.wordpress.com/2019/10/11/ruby-exploit-rewrite-centreon-2-5-3-web-useralias-rce/) on setting up the target and exploit explanation
+
 
 Tested with Python 3.7 on target Centreon 2.5.3 running on
 * mysql 5.7
